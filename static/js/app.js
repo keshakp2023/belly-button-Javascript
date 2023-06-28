@@ -1,12 +1,11 @@
 
 // 1. Use the D3 library to read in `samples.json` 
-console.log ("test")
 
 const sample_json = "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json";
 
 d3.json(sample_json).then(function(data) {
-    // console.log("Sample")
-    // console.log(data);
+    console.log("Sample")
+    console.log(data);
 });
 
 
